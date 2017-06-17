@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>*/GenStepDef[defName="RocksFromGrid"]/genStep</xpath>
+		<attribute>Class</attribute>
+		<value>RimworldApocalypse.GenStep_RocksFromGridRA</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>*/GenStepDef[defName="RocksFromGrid"]</xpath>
+		<value>
+			<li Class="RimworldApocalypse.GenStepExtension">
+				<FlatMineablesPer10kCells>4</FlatMineablesPer10kCells>
+				<SmallHillsMineablesPer10kCells>8</SmallHillsMineablesPer10kCells>
+				<LargeHillsMineablesPer10kCells>11</LargeHillsMineablesPer10kCells>
+				<MountainousMineablesPer10kCells>15</MountainousMineablesPer10kCells>
+			</li>
+		</value>
+	</Operation>
+</Patch>
+

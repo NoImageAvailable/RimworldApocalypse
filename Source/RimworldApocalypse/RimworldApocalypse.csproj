@@ -50,6 +50,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GenStepExtension.cs" />
+    <Compile Include="GenStep_RocksFromGridRA.cs" />
     <Compile Include="MapCompCountMineables.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
