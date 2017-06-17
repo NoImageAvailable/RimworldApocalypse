@@ -1,0 +1,3 @@
+D:\Games\RimWorld1557Win\Mods\Rimworld Apocalypse\Assemblies\RimworldApocalypse.dll
+D:\Games\RimWorld1557Win\Mods\Rimworld Apocalypse\Source\RimworldApocalypse\obj\Debug\RimworldApocalypse.csprojResolveAssemblyReference.cache
+D:\Games\RimWorld1557Win\Mods\Rimworld Apocalypse\Source\RimworldApocalypse\obj\Debug\RimworldApocalypse.dll
