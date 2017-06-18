@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TerrainDefs>
+
+  <TerrainDef>
+    <defName>SoilMarginal</defName>
+    <label>marginal soil</label>
+    <texturePath>Terrain/Surfaces/SoilMarginal</texturePath>
+    <EdgeType>FadeRough</EdgeType>
+    <RenderPrecedence>335</RenderPrecedence>
+    <PathCost>2</PathCost>
+    <statBases>
+      <Beauty>-1</Beauty>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    <ScatterType>Rocky</ScatterType>
+    <affordances>
+      <li>Light</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+    </affordances>
+    <TerrainFilthDef>FilthDirt</TerrainFilthDef>
+    <Fertility>0.7</Fertility>
+    <TakeFootprints>True</TakeFootprints>
+  </TerrainDef>
+
+  <TerrainDef>
+    <defName>SoilDry</defName>
+    <label>dry soil</label>
+    <texturePath>Terrain/Surfaces/SoilDry</texturePath>
+    <EdgeType>FadeRough</EdgeType>
+    <RenderPrecedence>335</RenderPrecedence>
+    <PathCost>2</PathCost>
+    <statBases>
+      <Beauty>-1</Beauty>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    <ScatterType>Rocky</ScatterType>
+    <affordances>
+      <li>Light</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+    </affordances>
+    <TerrainFilthDef>FilthDirt</TerrainFilthDef>
+    <Fertility>0.5</Fertility>
+    <TakeFootprints>True</TakeFootprints>
+  </TerrainDef>
+
+</TerrainDefs>
