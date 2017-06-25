@@ -10,10 +10,10 @@
 		<xpath>*/GenStepDef[defName="RocksFromGrid"]</xpath>
 		<value>
 			<li Class="RimworldApocalypse.GenStepExtension">
-				<FlatMineablesPer10kCells>4</FlatMineablesPer10kCells>
-				<SmallHillsMineablesPer10kCells>8</SmallHillsMineablesPer10kCells>
-				<LargeHillsMineablesPer10kCells>11</LargeHillsMineablesPer10kCells>
-				<MountainousMineablesPer10kCells>15</MountainousMineablesPer10kCells>
+				<FlatMineablesPer10kCells>1</FlatMineablesPer10kCells> <!-- Default: 4 -->
+				<SmallHillsMineablesPer10kCells>4</SmallHillsMineablesPer10kCells> <!-- Default: 8 -->
+				<LargeHillsMineablesPer10kCells>13.75</LargeHillsMineablesPer10kCells> <!-- Default: 11 -->
+				<MountainousMineablesPer10kCells>30</MountainousMineablesPer10kCells> <!-- Default: 15 -->
 			</li>
 		</value>
 	</Operation>
