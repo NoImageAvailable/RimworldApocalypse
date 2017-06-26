@@ -49,7 +49,7 @@ namespace RimworldApocalypse
                 float num2 = elevation[current];
                 if (num2 > num)
                 {
-                    ThingDef def = GenStep_RocksFromGrid.RockDefAt(current);
+                    ThingDef def = RockDefAt(current);
                     GenSpawn.Spawn(def, current, map);
                     for (int i = 0; i < list.Count; i++)
                     {

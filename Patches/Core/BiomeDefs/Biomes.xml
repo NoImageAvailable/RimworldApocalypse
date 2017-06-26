@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>*/BiomeDef[defName="TemperateForest"]</xpath>
+		<value>
+			<li Class="RimworldApocalypse.Trade.BiomeTradeExtension">
+				<woodPriceType>Normal</woodPriceType>
+				<chemfuelPriceType>Exorbitant</chemfuelPriceType>
+				<producePriceType>Cheap</producePriceType>
+			</li>
+		</value>
+	</Operation>
+
+</Patch>
+

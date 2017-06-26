@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>*/TraderKindDef[defName="Base_Outlander_Standard" or defName="Base_Neolithic_Standard"]/stockGenerators/li
+			[@Class="StockGenerator_SingleDef"][thingDef="Steel"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>*/TraderKindDef[defName="Base_Outlander_Standard" or defName="Base_Neolithic_Standard"]/stockGenerators/li
+			[@Class="StockGenerator_SingleDef"][thingDef="Plasteel"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>*/TraderKindDef[defName="Base_Outlander_Standard" or defName="Base_Neolithic_Standard"]/stockGenerators/li
+			[@Class="StockGenerator_SingleDef"][thingDef="Gold"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>*/TraderKindDef[defName="Base_Outlander_Standard" or defName="Base_Neolithic_Standard"]/stockGenerators/li
+			[@Class="StockGenerator_SingleDef"][thingDef="WoodLog"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>*/TraderKindDef[defName="Base_Outlander_Standard" or defName="Base_Neolithic_Standard"]/stockGenerators/li
+			[@Class="StockGenerator_SingleDef"][thingDef="Cloth"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>*/TraderKindDef[defName="Base_Outlander_Standard" or defName="Base_Neolithic_Standard"]/stockGenerators/li
+			[@Class="StockGenerator_SingleDef"][thingDef="Chemfuel"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>*/TraderKindDef[defName="Base_Outlander_Standard" or defName="Base_Neolithic_Standard"]/stockGenerators/li
+			[@Class="StockGenerator_Category"][categoryDef="ResourcesRaw"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>*/TraderKindDef[defName="Base_Outlander_Standard" or defName="Base_Neolithic_Standard"]/stockGenerators/li
+			[@Class="StockGenerator_Category"][categoryDef="FoodRaw"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>*/TraderKindDef[defName="Base_Outlander_Standard" or defName="Base_Neolithic_Standard"]/stockGenerators/li
+			[@Class="StockGenerator_BuyExpensiveSimple"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/TraderKindDef[defName="Base_Outlander_Standard" or defName="Base_Neolithic_Standard"]/stockGenerators</xpath>
+		<value>
+			<li Class="RimworldApocalypse.Trade.StockGenerator_CommodityProduce">
+				<commodityDefRange>
+					<min>4</min>
+					<max>8</max>
+				</commodityDefRange>
+        <totalPriceRange>
+          <min>400</min>
+          <max>800</max>
+        </totalPriceRange>
+			</li>
+			<li Class="RimworldApocalypse.Trade.StockGenerator_CommodityMinerals">
+				<commodityDefRange>
+					<min>4</min>
+					<max>8</max>
+				</commodityDefRange>
+        <totalPriceRange>
+          <min>400</min>
+          <max>800</max>
+        </totalPriceRange>
+			</li>
+			<li Class="RimworldApocalypse.Trade.StockGenerator_CommodityWood">
+        <totalPriceRange>
+          <min>400</min>
+          <max>800</max>
+        </totalPriceRange>
+			</li>
+			<li Class="RimworldApocalypse.Trade.StockGenerator_CommodityCHemfuel">
+        <totalPriceRange>
+          <min>400</min>
+          <max>800</max>
+        </totalPriceRange>
+			</li>
+		</value>
+	</Operation>
+
+</Patch>
+
